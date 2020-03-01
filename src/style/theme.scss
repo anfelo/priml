@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+$clay: #f16a41;
+$dark-clay: #ee4512;
+$light-blue: #41c8f1;
+$pale-yellow: #f1c241;
+$pink: #f14170;
+$light-green: #41f16a;
+$purple: #6a41f1;
+
+// Update Bulma's global variables
+$family-sans-serif: 'Lato', sans-serif;
+$primary: $clay;
+$info: $light-blue;
+$warning: $pale-yellow;
+$danger: $pink;
+$success: $light-green;
+$link: $dark-clay;
+
+$footer-background-color: $primary;
+$footer-color: white;
