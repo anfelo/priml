@@ -1,52 +1,48 @@
+<script>
+  import Particles from "../components/particles/Particles.svelte";
+</script>
+
 <style>
-  h1,
-  figure,
-  p {
-    text-align: center;
-    margin: 0 auto;
+  .hero-body .title {
+    padding-bottom: 10px;
+    font-size: 8rem;
+    text-decoration: underline;
+    text-decoration-color: #94fbb4;
   }
 
-  h1 {
-    font-size: 2.8em;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin: 0 0 0.5em 0;
-  }
-
-  figure {
-    margin: 0 0 1em 0;
-  }
-
-  img {
+  .hero-body .buttons {
+    position: absolute;
+    left: 50%;
     width: 100%;
-    max-width: 400px;
-    margin: 0 0 1em 0;
+    transform: translateX(-50%);
+    margin-top: 60px;
+    z-index: 1;
   }
 
-  p {
-    margin: 1em auto;
-  }
-
-  @media (min-width: 480px) {
-    h1 {
-      font-size: 4em;
-    }
+  .hero-body .container {
+    margin-bottom: 100px;
   }
 </style>
 
 <svelte:head>
-  <title>Sapper project template</title>
+  <title>Priml | Home</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<section class="hero is-dark has-gradient-dark is-fullheight-with-navbar">
+  <div class="hero-body has-text-centered">
+    <div class="container">
+      <p class="title">We are Priml</p>
+      <h2 class="subtitle">Problem Solvers & Data Fanatics</h2>
+      <div class="buttons is-centered">
+        <a href="/services" class="button is-medium is-danger">
+          <div class="button-label">Check our services</div>
+        </a>
+        <a href="/about" class="button is-medium is-primary">
+          <div class="button-label">More about Priml</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
-<figure>
-  <img alt="Borat" src="great-success.png" />
-  <figcaption>HIGH FIVE!</figcaption>
-</figure>
-
-<p>
-  <strong>
-    Try editing this file (src/routes/index.svelte) to test live reloading.
-  </strong>
-</p>
+<Particles />

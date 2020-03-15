@@ -1,6 +1,6 @@
 {
-  "name": "primalit",
-  "description": "This is Primalit's website, all the products and services are showcased in this site",
+  "name": "priml",
+  "description": "This is Priml's main website. Priml helps its clients any decision making or problem solving using data analytics, data science, machine lerning and other predictive technologies.",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
