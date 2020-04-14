@@ -8,12 +8,12 @@
 
   .title::selection,
   .subtitle::selection {
-    background-color: $danger;
+    background-color: $light-green;
   }
 
   .title::-moz-selection,
   .subtitle::-moz-selection {
-    background-color: $danger;
+    background-color: $light-green;
   }
 
   .title {
